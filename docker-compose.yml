@@ -2,7 +2,7 @@ version: "3.9"
 services:
   worker:
     build: .
-    environment
+    environment:
       API_HASH: $API_HASH
       APP_ID: $APP_ID
       TG_BOT_TOKEN: $TG_BOT_TOKEN
