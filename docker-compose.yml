@@ -4,6 +4,6 @@ services:
     build: .
     environment
       API_HASH: $API_HASH
-      API_ID: $APP_ID
+      APP_ID: $APP_ID
       TG_BOT_TOKEN: $TG_BOT_TOKEN
       UPDATE_CHANNEL: $UPDATE_CHANNEL
