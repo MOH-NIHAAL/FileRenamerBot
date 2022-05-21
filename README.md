@@ -13,6 +13,9 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DKBOTx/FileRenamerBot)
 
+# Deploy straight to Railway
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/NRttne?referralCode=KcNPrd)
 # Required Strings :-
 
 * -> `TG_BOT_TOKEN`<br> **Your Bot Token Taken From [@BotFather](https://t.me/botfather)**
