@@ -7,3 +7,6 @@ services:
       APP_ID: $APP_ID
       TG_BOT_TOKEN: $TG_BOT_TOKEN
       UPDATE_CHANNEL: $UPDATE_CHANNEL
+      WEBHOOK: $WEBHOOK
+      CHUNK_SIZE: $CHUNK_SIZE
+      
