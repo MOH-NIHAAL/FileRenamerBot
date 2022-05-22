@@ -3,11 +3,10 @@ services:
   worker:
     build: .
     environment:
-      API_HASH: $API_HASH
-      APP_ID: $APP_ID
+      WEBHOOK: $WEBHOOK
       TG_BOT_TOKEN: $TG_BOT_TOKEN
       UPDATE_CHANNEL: $UPDATE_CHANNEL
-      WEBHOOK: $WEBHOOK
-      CHUNK_SIZE: $CHUNK_SIZE
+      APP_ID: $APP_ID
+      API_HASH: $API_HASH
       BANNED_USERS: $BANNED_USERS
-      
+      CHUNK_SIZE: $CHUNK_SIZE
