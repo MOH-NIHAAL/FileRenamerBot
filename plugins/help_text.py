@@ -68,7 +68,7 @@ async def help_user(bot, update):
                     InlineKeyboardButton('📑 ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ ', callback_data = "ccaption")
                 ],
                 [
-                    InlineKeyboardButton('ʙᴀᴄᴋ ', callback_data = "start"),
+                    InlineKeyboardButton('ʙᴀᴄᴋ ', callback_data = "start2"),
                     InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data = "close")
                 ]
             ]
@@ -190,14 +190,17 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                      InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data="about")
                 ],
                 [ 
-                     Inline 
-                 
-       
+                     InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url="https://t.me/NL_MP4"),
+                     InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url="https://t.me/NL_BOTxCHAT")
+                ]
+            ]
+        )
+     )  
     elif data == "closeme":
         await query.message.delete()
         try:
             await query.message.reply_text(
-                text = "<b>Process Cancelled</b>"
+                text = "<b>ᴘʀᴏᴄᴇss ᴄᴀɴᴄᴇʟᴇᴅ</b>"
      )
         except:
             pass 
