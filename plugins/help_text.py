@@ -100,10 +100,10 @@ async def start_me(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/movie_lookam')
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/CL_UPDATE')
                 ],
                 [
-                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data = "ghelp"),
+                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data = "help"),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data = "about")
                 ],
                 [
@@ -175,6 +175,24 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             ]
         )
      )
+        
+    elif data == "start2":
+        await query.mesaage.reply_text
+            text = Translation.START_TEXT.format(update.from_user.mention),
+            disable_web_page_preview = True,
+            reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                     InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/CL_UPDATE')
+                ],
+                [
+                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data="help"),
+                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data="about")
+                ],
+                [ 
+                     Inline 
+                 
+       
     elif data == "closeme":
         await query.message.delete()
         try:
