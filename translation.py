@@ -1,13 +1,10 @@
 class Translation(object):
-    START_TEXT = """ <b> Hi {} , \nI'm A Simple File Renamer+File To Video Converter Bot With Permanent Thumbnail And Custom Caption support!</b> \n
-
-<b>Developed By : @NL_MP4</b> \n 
-"""
+    START_TEXT = "ʜᴇʟʟᴏ {} ʙᴜᴅᴅʏ\n\nɪᴀᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀғᴜʟʟ ʀᴇɴᴀᴍᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘᴏᴡᴇʀ ғᴇᴀᴜᴛᴜʀᴇs 😈"
 
     BANNED_USER_TEXT = "Sorry!! But @NL_MP4 As Banned You From Using This Service. That Means You Can't Run Meh Now! \n \n Contact : @NL_MP4 For more Details.. " 
     DOWNLOAD_START = "<b>Downloading To My server !! Pls Wait</b>"
-    UPLOAD_START = "<b>Downloading Completed Now I'm Uploading Into TeleGram</b>"
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>Thank you for Using Me Support Our Channel @CL_UPDATE ❤️</b>"
+    UPLOAD_START = "<b>ᴅᴏᴡʟᴏᴀᴅ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɴᴏᴡ ɪᴀᴍ ᴜᴘʟᴏᴀᴅɪɴɢ ᴛᴏ ʏᴏᴜ....</b>"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴍᴇ  ❤️</b>"
     SAVED_CUSTOM_THUMB_NAIL = "<b>thumbnail Saved ✅ This Is Permanent Until</b> /delthumb ❤"
     DEL_ETED_CUSTOM_THUMB_NAIL = "thumbnail cleared succesfully🤦"
     SAVED_RECVD_DOC_FILE = "<b>File Downloaded Successfully 😎</b>"
