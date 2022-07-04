@@ -11,7 +11,7 @@
 
 # Deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MOH-NIHAAL/pro)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MOH-NIHAAL/FileRenamerBot)
 
 # Deploy straight to Railway
 
