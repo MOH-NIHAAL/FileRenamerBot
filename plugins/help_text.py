@@ -68,7 +68,8 @@ async def help_user(bot, update):
                     InlineKeyboardButton('📑 ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ ', callback_data = "ccaption")
                 ],
                 [
-                    InlineKeyboardButton('😉 ᴀʙᴏᴜᴛ ', callback_data = "about")
+                    InlineKeyboardButton('ʙᴀᴄᴋ ', callback_data = "start"),
+                    InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data = 'close_data')
                 ]
             ]
         )
@@ -99,11 +100,11 @@ async def start_me(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton("ʜᴇʟᴘ", callback_data = "ghelp")
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/NL_MP4')
                 ],
                 [
-                    InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/CL_UPDATE'),
-                    InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam')
+                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data = "ghelp"),
+                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='start')
                 ],
                 [
                     InlineKeyboardButton('ᴅᴇᴠᴏʟᴏᴘᴇʀ', url='https://t.me/NL_MP4'),
@@ -197,7 +198,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                     InlineKeyboardButton('📑 ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
                 ],
                 [
-                    InlineKeyboardButton(' 🫣 ᴀʙᴏᴜᴛ', callback_data = "about")
+                    InlineKeyboardButton('ʙᴀᴄᴋ ', callback_data = "start"),
+                    InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data = 'close_data')
                 ]
             ]
         )
