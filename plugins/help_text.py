@@ -177,7 +177,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
      )
         
     elif data == "start2":
-        await query.mesaage.reply_text
+        await query.mesaage.edit_text(
             text = Translation.START_TEXT.format(update.from_user.mention),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup(
