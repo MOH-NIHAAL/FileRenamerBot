@@ -99,7 +99,7 @@ async def start_me(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton("Help", callback_data = "ghelp")
+                        InlineKeyboardButton("ʜᴇʟᴘ", callback_data = "ghelp")
                 ],
                 [
                     InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/CL_UPDATE'),
@@ -107,7 +107,7 @@ async def start_me(bot, update):
                 ],
                 [
                     InlineKeyboardButton('ᴅᴇᴠᴏʟᴏᴘᴇʀ', url='https://t.me/NL_MP4'),
-                    InlineKeyboardButton('ᴏᴜʀ ʙᴏᴛ', url="https://t.me/movie_lookam")
+                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url="https://t.me/NL_BOTxCHAT")
                 ]
             ]
         ),
